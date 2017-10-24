@@ -1,0 +1,9 @@
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\bin\Debug\netcoreapp1.1\UEFA.deps.json
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\bin\Debug\netcoreapp1.1\UEFA.runtimeconfig.json
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\bin\Debug\netcoreapp1.1\UEFA.runtimeconfig.dev.json
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\bin\Debug\netcoreapp1.1\UEFA.dll
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\bin\Debug\netcoreapp1.1\UEFA.pdb
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\obj\Debug\netcoreapp1.1\UEFA.csprojResolveAssemblyReference.cache
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\obj\Debug\netcoreapp1.1\UEFA.AssemblyInfo.cs
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\obj\Debug\netcoreapp1.1\UEFA.dll
+c:\users\ignas\documents\visual studio 2017\Projects\UEFA\obj\Debug\netcoreapp1.1\UEFA.pdb

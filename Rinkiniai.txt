@@ -1,0 +1,91 @@
+Authorization:
+
+Read Access:
+
+Token Name: Token
+Grant Type: Client Credentials
+Access Token URL: localhost:50151/connect/token
+Client ID: 1
+Client Secret: secret1
+Scope: scope.readaccess
+Client Authentication: Send as Basic Auth header
+
+Full Access:
+
+Token Name: Token
+Grant Type: Client Credentials
+Access Token URL: localhost:50151/connect/token
+Client ID: 2
+Client Secret: secret2
+Scope: scope.fullaccess
+Client Authentication: Send as Basic Auth header
+
+
+GET http://localhost:50565/api/uefa/
+Response: 
+		401 Unauthorized
+		200 OK
+
+GET http://localhost:50565/api/uefa/2
+Response: 
+		401 Unauthorized
+		200 OK
+
+POST http://localhost:50565/api/uefa/
+Body:
+{
+    
+"name": "Liverpool",
+    
+"country": "England",
+    
+"neededQualification": true,
+    
+"manager": "Jurgen Klopp",
+    
+"currentRecord": "2-1",
+    
+"currentPhase": "group stage",
+    
+"previousWinner": true
+
+}
+Response:
+		401 Unauthorized
+		201 Created
+		500 Internal Server Error
+
+PUT http://localhost:50565/api/uefa/30008
+Body:
+{
+        
+"id": 30008,
+        
+"name": "Liverpool",
+        
+"country": "England",
+        
+"neededQualification": true,
+        
+"manager": "Jurgen Klopp",
+        
+"currentRecord": "2-1",
+        
+"currentPhase": "group stage",
+        
+"previousWinner": true
+    
+}
+Response:
+		401 Unauthorized
+		200 OK
+		500 Internal Server Error
+		
+DELETE http://localhost:50565/api/uefa/30009
+Response:
+		401 Unauthorized
+		204 No Content
+		500 Internal Server Error
+
+
+
